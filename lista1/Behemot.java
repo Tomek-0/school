@@ -17,6 +17,11 @@ public class Behemot {
     // Metoda do wypisania tablicy
     public void printArray() {
         System.out.print("{");
+        // Jeśli tablica jest pusta, wypisz "empty"
+        if (array.length == 0) {
+            System.out.print("empty");
+        }
+        // W przeciwnym wypadku wypisz elementy tablicy
         // Wypisanie tablicy
         // WYpisuje elementy tablicy
         for (int i = 0; i < array.length; i++) {
