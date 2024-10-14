@@ -14,6 +14,8 @@ public class Behemot {
         Arrays.sort(array);
     }
 
+    //Tutaj komentarz
+
     // Metoda do wypisania tablicy
     public void printArray() {
         System.out.print("{");
