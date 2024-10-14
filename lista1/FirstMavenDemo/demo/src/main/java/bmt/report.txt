@@ -1,0 +1,1 @@
+Customer.java:5:	UnusedPrivateField:	Avoid unused private fields such as 'unusedVariable'.

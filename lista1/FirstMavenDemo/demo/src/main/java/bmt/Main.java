@@ -1,7 +1,7 @@
 package bmt;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         // Tworzymy sklep i dodajemy produkty
         Shop shop = new Shop();
         shop.addProduct(new Product("Laptop", 2500.00));

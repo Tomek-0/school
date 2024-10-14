@@ -2,6 +2,7 @@ package bmt;
 
 public class Customer {
     private String name;
+    private int unusedVariable;  // Dodana nieużywana zmienna
 
     public Customer(String name) {
         this.name = name;
